@@ -27,7 +27,6 @@ function fetchComboBoxData() {
               campoAsiento.type = 'text';
               campoAsiento.placeholder = 'Asiento';
 
-              // Botón para enviar la entrada relacionada con la función actual
               const botonGuardar = document.createElement('button');
               botonGuardar.textContent = 'Guardar';
 
@@ -77,5 +76,4 @@ function fetchComboBoxData() {
       });
 }
 
-// Ejecutar al cargar la página
 window.onload = fetchComboBoxData;
